@@ -1,0 +1,26 @@
+{
+  "name": "weforward-builder-for-vite",
+  "version": "1.0.0",
+  "description": "weforward前端项目编译插件",
+  "main": "index.js",
+  "scripts": {
+    "login-self": "npm login --registry https://git.navboy.com/repository/npm/",
+    "publish-self": "npm publish --registry https://git.navboy.com/repository/npm/",
+    "login-center": "npm login --registry https://registry.npmjs.org/",
+    "publish-center": "npm publish --registry https://registry.npmjs.org/"
+  },
+  "keywords": [
+    "weforward",
+    "build"
+  ],
+  "author": "wf@weforward.cn",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.88.2",
+    "archiver": "^5.3.1",
+    "js-base64": "^3.7.2",
+    "shelljs": "^0.8.5"
+  },
+  "devDependencies": {
+  }
+}
